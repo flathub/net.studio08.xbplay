@@ -5,5 +5,6 @@ Comment=Remote play from your console or xCloud.
 Icon=net.studio08.xbplay
 Exec=run.sh
 Terminal=false
-Categories=Utility;
+Categories=Game;
+Keywords=Game;Streaming;Xbox;Xcloud;Remote;
 StartupWMClass=net.studio08.xbplay
