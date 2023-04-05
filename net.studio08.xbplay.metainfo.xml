@@ -10,21 +10,22 @@
     <url type="homepage">https://studio08.net</url>
     <description>
         <p>
-            Remote play from your Xbox One or Series X/S game console directly to your Linux device.<br></br>
-            It supports 1080p quality, backward compatible games, and xCloud titles. Haptic feedback is also supported on connected controllers. The xbPlay app is available on Google Play, Google Play TV, the iOS App Store, and the Amazon Marketplace (TV).<br></br>
+            Remote play from your Xbox One or Series X/S game console directly to your Linux device.
+            This app supports 1080p quality, playing backward compatible games, and xCloud titles. 
+            Haptic feedback is also supported on connected controllers. The xbPlay app is available on Google Play, Google Play TV, the iOS App Store, and the Amazon Marketplace (TV).<br></br>
         </p>
         <ul>
             <li> 
-              <b>xHome:</b> Stream content to your device and control it with a mini on screen gamepad or connected controller. Stream in 1080p resolution and Xbox One backwards compatible games (360 games).
+              xHome: Stream content to your device and control it with a mini on screen gamepad or connected controller. Stream in 1080p resolution and Xbox One backwards compatible games (360 games).
             </li>
             <li> 
-              <b>xCloud:</b> Remote play Xbox games with the xCloud service. (Requires a Xbox GamePass subscription).
+              xCloud: Remote play Xbox games with the xCloud service. (Requires a Xbox GamePass subscription).
             </li>
             <li>
-              <b>Controller Builder:</b> Create and save your very own custom touch controls for in-game play.
+              Controller Builder: Create and save your very own custom touch controls for in-game play.
             </li>
             <li>
-              <b>Physical Controller:</b> All streaming screens will work with a physical controller connected to your device. We have even tested playing a Xbox game with a PS5 controller!
+              Physical Controller: All streaming screens will work with a physical controller connected to your device. We have even tested playing a Xbox game with a PS5 controller!
             </li>
         </ul>
     </description>
@@ -46,6 +47,11 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="1.2.0" date="2023-04-05">
+            <description>
+                <p>Fix controller input for steam deck.</p>
+            </description>
+        </release>
         <release version="1.0.1" date="2023-03-18"/>
     </releases>
     <content_rating type="oars-1.1">
