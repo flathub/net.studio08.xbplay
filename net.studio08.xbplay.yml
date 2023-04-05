@@ -25,7 +25,7 @@ modules:
     build-commands:
       # setup build files
       - cp -a . /app/main
-      - chmod +x /app/main/com.studio08.xbplay
+      - chmod +x /app/main/net.studio08.xbplay
 
       # add icons
       - install -Dm644 icon_512.png /app/share/icons/hicolor/512x512/apps/net.studio08.xbplay.png
@@ -38,13 +38,13 @@ modules:
       - install -Dm755 -t /app/bin/ run.sh
     sources:
       - type: archive
-        url: https://www.dropbox.com/s/jdiw535bq1182j0/data_1.1.1.zip?dl=1
-        sha256: d1888afebb00ceb594e9fa12d1c7e6b0c7556b65a3215caccbb6404db7292577
+        url: https://www.dropbox.com/s/xm1605xjswl49zo/data_1.2.0.zip?dl=1
+        sha256: d7bf2dcc67a6911820676d030e68e7050a384425ba03a0c5b367b3e191990989
         dest-filename: downloaded.zip
       - type: script
         dest-filename: run.sh
         commands:
-          - zypak-wrapper.sh /app/main/com.studio08.xbplay "$@"
+          - zypak-wrapper.sh /app/main/net.studio08.xbplay "$@"
       - type: file
         path: icon_512.png
       - type: file
