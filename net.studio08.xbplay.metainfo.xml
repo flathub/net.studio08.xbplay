@@ -47,6 +47,11 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="1.2.1" date="2023-04-09">
+            <description>
+                <p>Steam deck optimizations.</p>
+            </description>
+        </release>
         <release version="1.2.0" date="2023-04-05">
             <description>
                 <p>Fix controller input for steam deck.</p>
