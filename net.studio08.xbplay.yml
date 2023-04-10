@@ -15,6 +15,7 @@ finish-args:
   - --share=network
   - --device=all
   - --filesystem=/run/udev:ro
+  - --filesystem=/home/deck/.local/share/Steam/userdata
 build-options:
   append-path: /usr/lib/sdk/node18/bin
   env:
@@ -38,8 +39,8 @@ modules:
       - install -Dm755 -t /app/bin/ run.sh
     sources:
       - type: archive
-        url: https://www.dropbox.com/s/xm1605xjswl49zo/data_1.2.0.zip?dl=1
-        sha256: d7bf2dcc67a6911820676d030e68e7050a384425ba03a0c5b367b3e191990989
+        url: https://www.dropbox.com/s/9zkz1c6v4ozb6sg/data_1.2.2.zip?dl=1
+        sha256: 2ac36145670c8eae2f34dd38eed19730c82b260707f1ebc319ad50e77a37b2d6
         dest-filename: downloaded.zip
       - type: script
         dest-filename: run.sh
