@@ -39,8 +39,8 @@ modules:
       - install -Dm755 -t /app/bin/ run.sh
     sources:
       - type: archive
-        url: https://www.dropbox.com/s/zcv7gg00gj10x1h/data_1.2.1.zip?dl=1
-        sha256: a4685d97f9c6160578e0c1a5b13a7a2261275ebf8e5a35e13765376fa43941d0
+        url: https://www.dropbox.com/s/9zkz1c6v4ozb6sg/data_1.2.2.zip?dl=1
+        sha256: 2ac36145670c8eae2f34dd38eed19730c82b260707f1ebc319ad50e77a37b2d6
         dest-filename: downloaded.zip
       - type: script
         dest-filename: run.sh
