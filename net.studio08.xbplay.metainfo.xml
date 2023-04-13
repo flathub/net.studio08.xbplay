@@ -47,7 +47,7 @@
         </screenshot>
     </screenshots>
     <releases>
-        <release version="1.3.0" date="2023-04-13">
+        <release version="1.3.1" date="2023-04-13">
             <description>
                 <p>Added feature to add xCloud titles directly to steam deck library.</p>
             </description>
