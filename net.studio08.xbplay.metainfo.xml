@@ -8,6 +8,8 @@
     <project_license>Apache-2.0</project_license>
     <developer_name>Studio08 Development</developer_name>
     <url type="homepage">https://studio08.net</url>
+    <url type="help">https://discord.gg/ZyDwYmGJsC</url>
+    <url type="issues">https://www.reddit.com/r/xbPlay/</url>
     <description>
         <p>
             Remote play from your Xbox One or Series X/S game console directly to your Linux device.
@@ -47,6 +49,11 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="1.4.0" date="2023-04-18">
+            <description>
+                <p>Updated from Discord/Reddit suggestions. Including input lag fix and making most of the UI elements work without touch.</p>
+            </description>
+        </release>
         <release version="1.3.1" date="2023-04-13">
             <description>
                 <p>Added feature to add xCloud titles directly to steam deck library.</p>
