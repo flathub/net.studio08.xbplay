@@ -5,7 +5,7 @@
     <name>xbPlay: Remote Play for Xbox</name>
     <summary>Remote play from your console or xCloud</summary>
     <metadata_license>CC-BY-SA-4.0</metadata_license>
-    <project_license>Apache-2.0</project_license>
+    <project_license>LicenseRef-proprietary=https://www.xbgamestream.com/eula.html</project_license>
     <developer_name>Studio08 Development</developer_name>
     <url type="homepage">https://studio08.net</url>
     <url type="help">https://discord.gg/ZyDwYmGJsC</url>
@@ -49,6 +49,11 @@
         </screenshot>
     </screenshots>
     <releases>
+         <release version="1.5.0" date="2023-04-28">
+            <description>
+                <p>Improved steam deck xCloud artwork functionality.</p>
+            </description>
+        </release>
         <release version="1.4.0" date="2023-04-18">
             <description>
                 <p>Updated from Discord/Reddit suggestions. Including input lag fix and making most of the UI elements work without touch.</p>
