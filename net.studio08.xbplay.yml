@@ -15,6 +15,7 @@ finish-args:
   - --share=network
   - --device=all
   - --filesystem=/run/udev:ro
+  - --filesystem=/home/deck/.local/share/Steam/userdata
 build-options:
   append-path: /usr/lib/sdk/node18/bin
   env:
@@ -25,7 +26,7 @@ modules:
     build-commands:
       # setup build files
       - cp -a . /app/main
-      - chmod +x /app/main/com.studio08.xbplay
+      - chmod +x /app/main/net.studio08.xbplay
 
       # add icons
       - install -Dm644 icon_512.png /app/share/icons/hicolor/512x512/apps/net.studio08.xbplay.png
@@ -38,13 +39,13 @@ modules:
       - install -Dm755 -t /app/bin/ run.sh
     sources:
       - type: archive
-        url: https://www.dropbox.com/s/333ffftl6qimhdq/data_1.1.0.zip?dl=1
-        sha256: cd4f1c59c5a920822460e99d423e69c7228c3ee92527dcc2b7500d46cf71da13
+        url: https://www.dropbox.com/s/7tegm0mal9l6tpj/data_1.5.1.zip?dl=1
+        sha256: 3908009b590ca0707db0823664b236b822bcd2b89151b40036ff9d8d114a5b0a
         dest-filename: downloaded.zip
       - type: script
         dest-filename: run.sh
         commands:
-          - zypak-wrapper.sh /app/main/com.studio08.xbplay "$@"
+          - zypak-wrapper.sh /app/main/net.studio08.xbplay "$@"
       - type: file
         path: icon_512.png
       - type: file

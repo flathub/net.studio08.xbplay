@@ -5,26 +5,29 @@
     <name>xbPlay: Remote Play for Xbox</name>
     <summary>Remote play from your console or xCloud</summary>
     <metadata_license>CC-BY-SA-4.0</metadata_license>
-    <project_license>Apache-2.0</project_license>
+    <project_license>LicenseRef-proprietary=https://www.xbgamestream.com/eula.html</project_license>
     <developer_name>Studio08 Development</developer_name>
     <url type="homepage">https://studio08.net</url>
+    <url type="help">https://discord.gg/ZyDwYmGJsC</url>
+    <url type="bugtracker">https://www.reddit.com/r/xbPlay/</url>
     <description>
         <p>
-            Remote play from your Xbox One or Series X/S game console directly to your Linux device.<br></br>
-            It supports 1080p quality, backward compatible games, and xCloud titles. Haptic feedback is also supported on connected controllers. The xbPlay app is available on Google Play, Google Play TV, the iOS App Store, and the Amazon Marketplace (TV).<br></br>
+            Remote play from your Xbox One or Series X/S game console directly to your Linux device.
+            This app supports 1080p quality, playing backward compatible games, and xCloud titles. 
+            Haptic feedback is also supported on connected controllers. The xbPlay app is available on Google Play, Google Play TV, the iOS App Store, and the Amazon Marketplace (TV).<br></br>
         </p>
         <ul>
             <li> 
-              <b>xHome:</b> Stream content to your device and control it with a mini on screen gamepad or connected controller. Stream in 1080p resolution and Xbox One backwards compatible games (360 games).
+              xHome: Stream content to your device and control it with a mini on screen gamepad or connected controller. Stream in 1080p resolution and Xbox One backwards compatible games (360 games).
             </li>
             <li> 
-              <b>xCloud:</b> Remote play Xbox games with the xCloud service. (Requires a Xbox GamePass subscription).
+              xCloud: Remote play Xbox games with the xCloud service. (Requires a Xbox GamePass subscription).
             </li>
             <li>
-              <b>Controller Builder:</b> Create and save your very own custom touch controls for in-game play.
+              Controller Builder: Create and save your very own custom touch controls for in-game play.
             </li>
             <li>
-              <b>Physical Controller:</b> All streaming screens will work with a physical controller connected to your device. We have even tested playing a Xbox game with a PS5 controller!
+              Physical Controller: All streaming screens will work with a physical controller connected to your device. We have even tested playing a Xbox game with a PS5 controller!
             </li>
         </ul>
     </description>
@@ -46,6 +49,36 @@
         </screenshot>
     </screenshots>
     <releases>
+         <release version="1.5.1" date="2023-05-04">
+            <description>
+                <p>Add login completion popups</p>
+            </description>
+        </release>
+         <release version="1.5.0" date="2023-04-27">
+            <description>
+                <p>Improved steam deck xCloud artwork functionality.</p>
+            </description>
+        </release>
+        <release version="1.4.0" date="2023-04-18">
+            <description>
+                <p>Updated from Discord/Reddit suggestions. Including input lag fix and making most of the UI elements work without touch.</p>
+            </description>
+        </release>
+        <release version="1.3.1" date="2023-04-13">
+            <description>
+                <p>Added feature to add xCloud titles directly to steam deck library.</p>
+            </description>
+        </release>
+        <release version="1.2.2" date="2023-04-09">
+            <description>
+                <p>Steam deck optimizations / artwork.</p>
+            </description>
+        </release>
+        <release version="1.2.0" date="2023-04-05">
+            <description>
+                <p>Fix controller input for steam deck.</p>
+            </description>
+        </release>
         <release version="1.0.1" date="2023-03-18"/>
     </releases>
     <content_rating type="oars-1.1">
