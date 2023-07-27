@@ -49,12 +49,17 @@
         </screenshot>
     </screenshots>
     <releases>
-         <release version="1.5.1" date="2023-05-04">
+        <release version="1.6.0" date="2023-07-25">
+            <description>
+                <p>Enhanced login flow by addressing 2FA and repeated password prompt issues. Resolved Steam Deck new user bug.</p>
+            </description>
+        </release>
+        <release version="1.5.1" date="2023-05-04">
             <description>
                 <p>Add login completion popups</p>
             </description>
         </release>
-         <release version="1.5.0" date="2023-04-27">
+        <release version="1.5.0" date="2023-04-27">
             <description>
                 <p>Improved steam deck xCloud artwork functionality.</p>
             </description>
