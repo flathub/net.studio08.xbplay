@@ -49,6 +49,11 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="1.6.1" date="2023-08-15">
+            <description>
+                <p>Improved login flow.</p>
+            </description>
+        </release>
         <release version="1.6.0" date="2023-07-25">
             <description>
                 <p>Enhanced login flow by addressing 2FA and repeated password prompt issues. Resolved Steam Deck new user bug.</p>
