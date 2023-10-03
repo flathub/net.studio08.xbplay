@@ -49,9 +49,9 @@
         </screenshot>
     </screenshots>
     <releases>
-         <release version="1.7.7" date="2023-10-02">
+         <release version="1.7.8" date="2023-10-02">
             <description>
-                <p>Allow xCloud from unsupporte regions without VPN and icon update.</p>
+                <p>Allow xCloud from unsupporte regions without VPN, icon update, fullscreen fix.</p>
             </description>
         </release>
          <release version="1.7.6" date="2023-09-10">
