@@ -2,7 +2,7 @@
 <component type="desktop-application">
     <id type="desktop">net.studio08.xbplay</id>
     <launchable type="desktop-id">net.studio08.xbplay.desktop</launchable>
-    <name>xbPlay: Remote Play for Xbox</name>
+    <name>XBPlay: Remote Play for Xbox</name>
     <summary>Remote play from your console or xCloud</summary>
     <metadata_license>CC-BY-SA-4.0</metadata_license>
     <project_license>LicenseRef-proprietary=https://www.xbgamestream.com/eula.html</project_license>
@@ -14,7 +14,7 @@
         <p>
             Remote play from your Xbox One or Series X/S game console directly to your Linux device.
             This app supports 1080p quality, playing backward compatible games, and xCloud titles. 
-            Haptic feedback is also supported on connected controllers. The xbPlay app is available on Google Play, Google Play TV, the iOS App Store, and the Amazon Marketplace (TV).<br></br>
+            Haptic feedback is also supported on connected controllers. The XBPlay app is available on Google Play, Google Play TV, the iOS App Store, and the Amazon Marketplace (TV).<br></br>
         </p>
         <ul>
             <li> 
@@ -49,6 +49,11 @@
         </screenshot>
     </screenshots>
     <releases>
+         <release version="1.7.7" date="2023-10-02">
+            <description>
+                <p>Allow xCloud from unsupporte regions without VPN and icon update.</p>
+            </description>
+        </release>
          <release version="1.7.6" date="2023-09-10">
             <description>
                 <p>Fix bug preventing xCloud shortcut prompts from showing. Allow window drag.</p>
