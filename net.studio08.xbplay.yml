@@ -11,6 +11,7 @@ separate-locales: false
 finish-args:
   - --share=ipc
   - --socket=x11
+  - --socket=wayland
   - --socket=pulseaudio
   - --share=network
   - --device=all
@@ -39,8 +40,8 @@ modules:
       - install -Dm755 -t /app/bin/ run.sh
     sources:
       - type: archive
-        url: https://www.dropbox.com/scl/fi/wmjedlhjo7vi12w8dhc7c/data_1.7.8.zip?rlkey=38vyz0al48s4cmy2e9l55j7j6&dl=1
-        sha256: 9694833d75a3e9e5695d7b7fded12f355095e031ee520190dc4c8ac4c4688654
+        url: https://www.dropbox.com/scl/fi/iaokj95ocvo3yj70twd4m/data_1.8.0_2.zip?rlkey=yjb228c4grig6i3wb9ucx8viu&dl=1
+        sha256: 58dd86a07b2aa022e2a2c7f4e3766ddc88ac24a4464cfaf944388793923ace46
         dest-filename: downloaded.zip
       - type: script
         dest-filename: run.sh

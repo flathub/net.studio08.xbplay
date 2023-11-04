@@ -49,9 +49,14 @@
         </screenshot>
     </screenshots>
     <releases>
-         <release version="1.7.8" date="2023-10-02">
+        <release version="1.8.1" date="2023-11-04">
             <description>
-                <p>Allow xCloud from unsupporte regions without VPN, icon update, fullscreen fix.</p>
+                <p>Fix white screen issue on some linux devices</p>
+            </description>
+        </release>
+        <release version="1.7.8" date="2023-10-02">
+            <description>
+                <p>Allow xCloud from unsupported regions without VPN, icon update, fullscreen fix.</p>
             </description>
         </release>
          <release version="1.7.6" date="2023-09-10">
