@@ -49,8 +49,9 @@
         </screenshot>
     </screenshots>
     <releases>
-        <release version="1.8.1" date="2023-11-04">
+        <release version="1.8.1" date="2023-11-10">
             <description>
+                <p>Fix login issues</p>
                 <p>Fix white screen issue on some linux devices</p>
             </description>
         </release>
