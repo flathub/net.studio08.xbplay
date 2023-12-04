@@ -49,6 +49,12 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="1.9.2" date="2023-12-04">
+            <description>
+                <p>Fix bug on steam deck that locked the resolution to 1280x800 on external monitors. Any resolution can be used now.</p>
+                <p>Added ability to create xCloud shortcuts for all platforms if steam app is installed (not just steam decks).</p>
+            </description>
+        </release>
         <release version="1.8.1" date="2023-11-10">
             <description>
                 <p>Fix login issues</p>
