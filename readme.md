@@ -18,4 +18,4 @@ flatpak-builder build net.studio08.xbplay.yml --install --force-clean --user
 
 [![Available on Steam](https://www.dropbox.com/scl/fi/6qqguxkkxi4xp4379j5rn/Screenshot-2023-12-06-002714.png?rlkey=ycjz5dnnnw5zz32z1pxicqfa1&raw=1)](https://store.steampowered.com/app/2693120/XBPlay/?snr=1_5_1100__1100&utm_source=steamwidget)
 
-[<img src="https://www.dropbox.com/scl/fi/6qqguxkkxi4xp4379j5rn/Screenshot-2023-12-06-002714.png?rlkey=ycjz5dnnnw5zz32z1pxicqfa1&raw=1" width="50%" object-fit="contain" align="center">](https://store.steampowered.com/app/2693120/XBPlay/?snr=1_5_1100__1100&utm_source=steamwidget)
+[<img src="https://www.dropbox.com/scl/fi/6qqguxkkxi4xp4379j5rn/Screenshot-2023-12-06-002714.png?rlkey=ycjz5dnnnw5zz32z1pxicqfa1&raw=1" width="100%" height="20%" object-fit="contain" align="center">](https://store.steampowered.com/app/2693120/XBPlay/?snr=1_5_1100__1100&utm_source=steamwidget)
