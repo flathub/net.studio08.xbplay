@@ -1,10 +1,13 @@
+<iframe src="https://store.steampowered.com/widget/2693120/?t=Now%20available%20on%20Steam%20for%20Windows%2C%20Mac%2C%20and%20Linux!" frameborder="0" width="646" height="190"></iframe>
+
+
 **Command Line Args**:
-- `--xhome`: Automatically login and start a xHome remote play session for the default console on start.
-- `--xcloud=titleId`: Automatically login and start an xCloud remote play session. A list of titleIds are shown in the app 'Tips' section.
+- `--xhome`: Automatically login and start an xHome remote play session for the default console on start.
+- `--xcloud=titleId`: Automatically login and start an xCloud remote play session. A list of titleIds are shown in the app 'Help' section.
 
 **Permissions**:
 - `-device=all` and `-filesystem=/run/udev:ro`: Detect and read connected game controllers.
-- `-filesystem=/home/deck/.local/share/Steam/userdata`: Set steam deck game artwork and icons.
+- `-filesystem=/home/deck/.local/share/Steam/userdata` and `-filesystem=/home/deck/.steam`: Set xcloud custom shortcuts and artwork in steam library.
 
 Prod
 ```
