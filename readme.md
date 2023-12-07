@@ -4,7 +4,7 @@
 
 **Permissions**:
 - `-device=all` and `-filesystem=/run/udev:ro`: Detect and read connected game controllers.
-- `-filesystem=/home/deck/.local/share/Steam/userdata` and `-filesystem=/home/deck/.steam`: Set xcloud custom shortcuts and artwork in steam library.
+- `-filesystem=~/.local/share/Steam` and `-filesystem=~/.steam`: Set xcloud custom shortcuts and artwork in steam library.
 
 Prod
 ```
