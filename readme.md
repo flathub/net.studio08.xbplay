@@ -1,10 +1,10 @@
 **Command Line Args**:
-- `--xhome`: Automatically login and start a xHome remote play session for the default console on start.
-- `--xcloud=titleId`: Automatically login and start an xCloud remote play session. A list of titleIds are shown in the app 'Tips' section.
+- `--xhome`: Automatically login and start an xHome remote play session for the default console on start.
+- `--xcloud=titleId`: Automatically login and start an xCloud remote play session. A list of titleIds are shown in the app 'Help' section.
 
 **Permissions**:
 - `-device=all` and `-filesystem=/run/udev:ro`: Detect and read connected game controllers.
-- `-filesystem=/home/deck/.local/share/Steam/userdata`: Set steam deck game artwork and icons.
+- `-filesystem=~/.local/share/Steam` and `-filesystem=~/.steam`: Set xcloud custom shortcuts and artwork in steam library.
 
 Prod
 ```
