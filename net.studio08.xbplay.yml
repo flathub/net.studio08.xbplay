@@ -42,7 +42,7 @@ modules:
     sources:
       - type: archive
         url: https://www.dropbox.com/scl/fi/0f2v6u2c6hrgu67p4njql/data_1.9.5.zip?rlkey=0ilmxbshvv4elb91tcmbs0ukr&dl=1
-        sha256: 7b07fefd4822b3c4c8924ab7cc176d07d1b1649b2a316ba33b3f0bc77a07bed0
+        sha256: c5a1b72ca9db466201245d8dc42f74cc82d3fc377915eb176ec904297088d8d9
         dest-filename: downloaded.zip
       - type: script
         dest-filename: run.sh
