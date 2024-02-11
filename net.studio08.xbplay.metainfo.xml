@@ -49,6 +49,14 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2.0.5" date="2024-02-11">
+            <description>
+                <p>UI updates.</p>
+                <p>Added background login and other new settings.</p>
+                <p>Allow multiple controllers on main menu.</p>
+                <p>Allow app to run on SD cards.</p>
+            </description>
+        </release>
         <release version="1.9.5" date="2023-12-09">
             <description>
                 <p>Fix bug on steam deck that locked the resolution to 1280x800 on external monitors. Any resolution can be used now.</p>
