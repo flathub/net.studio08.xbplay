@@ -49,6 +49,12 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2.2.37" date="2024-11-11">
+            <description>
+                <p>Add more login modes.</p>
+                <p>Add PC Play feature.</p>
+            </description>
+        </release>
         <release version="2.1.9" date="2024-04-10">
             <description>
                 <p>Fix No Consoles Found Error.</p>
