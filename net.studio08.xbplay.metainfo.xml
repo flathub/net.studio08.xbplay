@@ -49,6 +49,11 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2.2.38" date="2024-12-08">
+            <description>
+                <p>Add more cloud categories.</p>
+            </description>
+        </release>
         <release version="2.2.37" date="2024-11-11">
             <description>
                 <p>Add more login modes.</p>
