@@ -1,6 +1,6 @@
 app-id: net.studio08.xbplay
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
 base-version: '24.08'
@@ -22,7 +22,7 @@ finish-args:
   - --filesystem=~/.local/share/Steam
   - --filesystem=~/.steam
 build-options:
-  append-path: /usr/lib/sdk/node18/bin
+  append-path: /usr/lib/sdk/node22/bin
   env:
     NPM_CONFIG_LOGLEVEL: info
 modules:
