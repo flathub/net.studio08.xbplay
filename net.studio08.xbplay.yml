@@ -7,6 +7,9 @@ base-version: '22.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node18
 command: run.sh
+add-extensions:
+  org.freedesktop.Platform.GL.default:
+    version: '22.08'
 separate-locales: false
 finish-args:
   - --share=ipc
