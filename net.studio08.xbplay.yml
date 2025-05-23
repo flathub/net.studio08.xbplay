@@ -3,13 +3,13 @@ runtime: org.freedesktop.Platform
 runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '22.08'
+base-version: '24.08'
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node18
+  - org.freedesktop.Sdk.Extension.node22
 command: run.sh
 add-extensions:
   org.freedesktop.Platform.GL.default:
-    version: '22.08'
+    version: '24.08'
 separate-locales: false
 finish-args:
   - --share=ipc
