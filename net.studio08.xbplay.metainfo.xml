@@ -49,6 +49,13 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2.2.56" date="2025-05-22">
+            <description>
+                <p>In game side menu has games section to quickly change between games.</p>
+                <p>Add vulkan render pipeline option</p>
+                <p>Disable passkey auth which hangs on some devices, allow QR code login</p>
+            </description>
+        </release>
         <release version="2.2.38" date="2024-12-08">
             <description>
                 <p>Add more cloud categories.</p>
