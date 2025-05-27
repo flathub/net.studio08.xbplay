@@ -29,6 +29,11 @@ modules:
   - name: net.studio08.xbplay
     buildsystem: simple
     build-commands:
+      - cp -a extralib/extralib -t /app/
+      - gunzip /app/extralib/libLLVM-16.0.6.so.gz
+      - cp -a extralib/reduceSoFiles.sh -t /app/extralib
+      - pushd /app/extralib && ln -s libLLVM-16.0.6.so libLLVM-16.so && chmod +x reduceSoFiles.sh && ./reduceSoFiles.sh && popd
+      
       # setup build files
       - cp -a . /app/main
       - chmod +x /app/main/net.studio08.xbplay
@@ -47,9 +52,18 @@ modules:
         url: https://www.dropbox.com/scl/fi/zwgjp17iov8zk6cg95pz9/data_2.2.56.zip?rlkey=74kt7wxacn5l4ezap7guf5xf3&st=w3hskn6e&dl=1
         sha256: b80160b5f76128030ffd729c5ced6780bc45833be305d6d38c8f652374136525
         dest-filename: downloaded.zip
+      - type: git
+        url: https://github.com/Originalimoc/amd-patched-mesa
+        dest: extralib
+        commit: "a70058baf35f1823613f2577c30a477e93cd106a"
       - type: script
         dest-filename: run.sh
         commands:
+          - export LIBGL_DRIVERS_PATH=/app/extralib/dri:/usr/lib/x86_64-linux-gnu/dri/intel-vaapi-driver:/usr/lib/x86_64-linux-gnu/GL/default/lib/dri/:${LIBGL_DRIVERS_PATH}
+          - export LIBVA_DRIVERS_PATH=/app/extralib/dri:/usr/lib/x86_64-linux-gnu/dri/intel-vaapi-driver:/usr/lib/x86_64-linux-gnu/GL/default/lib/dri/:${LIBVA_DRIVERS_PATH}
+          - export VK_ICD_FILENAMES=/app/extralib/icd.d/intel_icd.x86_64.json:/app/extralib/icd.d/radeon_icd.x86_64.json:/app/extralib/icd.d/virtio_icd.x86_64.json:/app/extralib/icd.d/intel_hasvk_icd.x86_64.json:/app/extralib/icd.d/lvp_icd.x86_64.json:${VK_ICD_FILENAMES}
+          - export LD_LIBRARY_PATH=/app/extralib:${LD_LIBRARY_PATH}
+          - echo runtime LD_LIBRARY_PATH = $LD_LIBRARY_PATH
           - zypak-wrapper.sh /app/main/net.studio08.xbplay "$@"
       - type: file
         path: icon_512.png
