@@ -7,9 +7,6 @@ base-version: '24.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node22
 command: run.sh
-add-extensions:
-  org.freedesktop.Platform.GL.default:
-    version: '24.08'
 separate-locales: false
 finish-args:
   - --share=ipc
@@ -33,7 +30,8 @@ modules:
       - gunzip /app/extralib/libLLVM-16.0.6.so.gz
       - cp -a extralib/reduceSoFiles.sh -t /app/extralib
       - pushd /app/extralib && ln -s libLLVM-16.0.6.so libLLVM-16.so && chmod +x reduceSoFiles.sh && ./reduceSoFiles.sh && popd
-      
+      - rm -rf /app/extralib/.git /app/extralib/src /app/extralib/pkgconfig
+
       # setup build files
       - cp -a . /app/main
       - chmod +x /app/main/net.studio08.xbplay
