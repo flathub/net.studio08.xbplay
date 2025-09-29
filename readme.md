@@ -11,6 +11,7 @@ Prod
 flatpak install flathub net.studio08.xbplay
 ```
 
+
 Local dev
 ```
 flatpak-builder build net.studio08.xbplay.yml --install --force-clean --user
