@@ -2,7 +2,7 @@
 <component type="desktop-application">
     <id type="desktop">net.studio08.xbplay</id>
     <launchable type="desktop-id">net.studio08.xbplay.desktop</launchable>
-    <name>xbPlay: Remote Play for Xbox</name>
+    <name>XBPlay: Remote Play for Xbox</name>
     <summary>Remote play from your console or xCloud</summary>
     <metadata_license>CC-BY-SA-4.0</metadata_license>
     <project_license>LicenseRef-proprietary=https://www.xbgamestream.com/eula.html</project_license>
@@ -14,7 +14,7 @@
         <p>
             Remote play from your Xbox One or Series X/S game console directly to your Linux device.
             This app supports 1080p quality, playing backward compatible games, and xCloud titles. 
-            Haptic feedback is also supported on connected controllers. The xbPlay app is available on Google Play, Google Play TV, the iOS App Store, and the Amazon Marketplace (TV).<br></br>
+            Haptic feedback is also supported on connected controllers. The XBPlay app is available on Google Play, Google Play TV, the iOS App Store, and the Amazon Marketplace (TV).
         </p>
         <ul>
             <li> 
@@ -49,12 +49,75 @@
         </screenshot>
     </screenshots>
     <releases>
-         <release version="1.5.1" date="2023-05-04">
+        <release version="2.2.56" date="2025-05-22">
+            <description>
+                <p>In game side menu has games section to quickly change between games.</p>
+                <p>Add vulkan render pipeline option</p>
+                <p>Disable passkey auth which hangs on some devices, allow QR code login</p>
+            </description>
+        </release>
+        <release version="2.2.38" date="2024-12-08">
+            <description>
+                <p>Add more cloud categories.</p>
+            </description>
+        </release>
+        <release version="2.2.37" date="2024-11-11">
+            <description>
+                <p>Add more login modes.</p>
+                <p>Add PC Play feature.</p>
+            </description>
+        </release>
+        <release version="2.1.9" date="2024-04-10">
+            <description>
+                <p>Fix No Consoles Found Error.</p>
+            </description>
+        </release>
+        <release version="2.0.5" date="2024-02-11">
+            <description>
+                <p>UI updates.</p>
+                <p>Added background login and other new settings.</p>
+                <p>Allow multiple controllers on main menu.</p>
+                <p>Allow app to run on SD cards.</p>
+            </description>
+        </release>
+        <release version="1.9.5" date="2023-12-09">
+            <description>
+                <p>Fix bug on steam deck that locked the resolution to 1280x800 on external monitors. Any resolution can be used now.</p>
+                <p>Added ability to create xCloud shortcuts for all platforms if steam app is installed (not just steam decks).</p>
+            </description>
+        </release>
+        <release version="1.8.1" date="2023-11-10">
+            <description>
+                <p>Fix login issues</p>
+                <p>Fix white screen issue on some linux devices</p>
+            </description>
+        </release>
+        <release version="1.7.8" date="2023-10-02">
+            <description>
+                <p>Allow xCloud from unsupported regions without VPN, icon update, fullscreen fix.</p>
+            </description>
+        </release>
+         <release version="1.7.6" date="2023-09-10">
+            <description>
+                <p>Fix bug preventing xCloud shortcut prompts from showing. Allow window drag.</p>
+            </description>
+        </release>
+        <release version="1.6.1" date="2023-08-15">
+            <description>
+                <p>Improved login flow.</p>
+            </description>
+        </release>
+        <release version="1.6.0" date="2023-07-25">
+            <description>
+                <p>Enhanced login flow by addressing 2FA and repeated password prompt issues. Resolved Steam Deck new user bug.</p>
+            </description>
+        </release>
+        <release version="1.5.1" date="2023-05-04">
             <description>
                 <p>Add login completion popups</p>
             </description>
         </release>
-         <release version="1.5.0" date="2023-04-27">
+        <release version="1.5.0" date="2023-04-27">
             <description>
                 <p>Improved steam deck xCloud artwork functionality.</p>
             </description>
